@@ -1,5 +1,5 @@
 :root{
-    --color-primary: #2F2F2F;
+    --color-primary: #1C70EE;
     --color-secondary: #2f2f2f;
     --color-lightGrey: #d9d9d9;
     --color-extraLightGrey: #edededfd;
@@ -10,13 +10,13 @@
 body{
     height: 100vh;
     width: 100vh;
-    background-color: var(--color-primary);
+    background-color: var(--color-extraLightGrey);
     display: flex;
     flex-direction: column;
 }
 
 header{
-    background-color: var(--color-extraLightGrey);
+    background-color: var(--color-secondary);
     display: flex;
     color: #fff;
 }
