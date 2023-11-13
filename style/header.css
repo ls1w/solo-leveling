@@ -14,6 +14,7 @@ header .menu{
     font-size: 32px;
     font-weight: 600;
     gap: 80px;
+    padding-bottom: 8px;
 }
 header .menu a:hover{
     color: var(--color-primary);
@@ -23,10 +24,16 @@ header .search-and-login{
     display: flex;
     gap: 24px;
 }
+
 header .search-icon-container{
     display: flex;
     align-items: center;
 }
+header .search-icon-container:hover{
+    color: var(--color-primary);
+    cursor: pointer;
+}
+
 header .login{
     background-color: var(--color-lightGrey);
     display: flex;
@@ -35,23 +42,7 @@ header .login{
     gap: 8px;
     border-radius: 8px 8px 0px 0px;
 }
-
-
-
-header .low-menu{
-    background-color: var(--color-lightGrey);
-    color: var(--color-black);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-header .low-menu div{
-    padding: 0px 16px;
-    border-left: 1px solid var(--color-secondary);
-    border-right: 1px solid var(--color-secondary);
-    border-radius: 2px;
-    font-size: 20px;
-}
-header .low-menu div:hover{
-    background-color: var(--color-primary);
+header .login:hover{
+    color: var(--color-primary);
+    cursor: pointer;
 }
