@@ -7,15 +7,15 @@ header{
 header .high-menu{
     display: flex;
     justify-content: center;
-    width: 1400px;
+    /* width: 1400px; */
     gap: 40vw;
-    /* padding: 0px 16vw; */
+    padding: 0px 16vw;
 }
 header .menu{
     display: flex;
     font-size: 32px;
     font-weight: 600;
-    gap: 10%;
+    gap: 2vw;
     padding-bottom: 8px;
 }
 header .menu a:hover{
