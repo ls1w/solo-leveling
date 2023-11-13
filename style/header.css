@@ -7,13 +7,13 @@ header{
 header .high-menu{
     display: flex;
     justify-content: space-between;
-    padding: 0px 256px;
+    padding: 0px 16vw;
 }
 header .menu{
     display: flex;
     font-size: 32px;
     font-weight: 600;
-    gap: 80px;
+    gap: 5vw;
     padding-bottom: 8px;
 }
 header .menu a:hover{
@@ -22,10 +22,14 @@ header .menu a:hover{
 
 header .search-and-login{
     display: flex;
-    gap: 24px;
+    gap: 1vw;
 }
 
 header .search-icon-container{
+    background-color: var(--color-secondary);
+    color: inherit;
+    border: inherit;
+    font-size: inherit;
     display: flex;
     align-items: center;
 }
@@ -36,6 +40,9 @@ header .search-icon-container:hover{
 
 header .login{
     background-color: var(--color-lightGrey);
+    color: inherit;
+    border: inherit;
+    font-size: inherit;
     display: flex;
     align-items: center;
     padding: 0px 4px;
