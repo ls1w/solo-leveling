@@ -1,5 +1,32 @@
 main{
-    width: 100vw;
+    background-color: blue;
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+main .home-container{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    max-width: 1400px;
+    background-color: aqua;
+    margin: 0px 32px;
+    padding: 48px 8px;
+    gap: 8px;
+}
+
+main .home-container .home-capa-e-nota{
+    display: flex;
+    flex-direction: column;
+    background-color: tomato;
+    width: 200px;
+}
+
+main .home-container .home-descricao{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    flex-grow: 1;
 }
