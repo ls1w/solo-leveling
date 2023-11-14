@@ -1,4 +1,6 @@
 header{
+    background-color: var(--color-secondary);
+    color: var(--color-white);
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -6,17 +8,16 @@ header{
 }
 header .high-menu{
     display: flex;
-    justify-content: center;
-    /* width: 1400px; */
-    gap: 40vw;
-    padding: 0px 16vw;
+    justify-content: space-between;
+    flex-grow: 1;
+    max-width: 1400px;
+    margin: 0px 32px 8px 32px;
 }
 header .menu{
     display: flex;
     font-size: 32px;
     font-weight: 600;
-    gap: 2vw;
-    padding-bottom: 8px;
+    gap: 32px;
 }
 header .menu a:hover{
     color: var(--color-primary);
@@ -47,9 +48,9 @@ header .login{
     font-size: inherit;
     display: flex;
     align-items: center;
-    padding: 0px 4px;
+    padding: 0px 8px;
     gap: 8px;
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 8px;
 }
 header .login:hover{
     color: var(--color-primary);
